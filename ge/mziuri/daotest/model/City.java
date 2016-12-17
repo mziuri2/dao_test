@@ -69,4 +69,9 @@ public class City {
         return "City{" + "id=" + id + ", name=" + name + ", population=" + population + ", capital=" + capital + ", country_id=" + country_id + '}';
     }
     
+    @Override
+    public boolean equals(Object o) {
+        City c = (City)o;
+        return c.getName().equals(name);
+    }
 }

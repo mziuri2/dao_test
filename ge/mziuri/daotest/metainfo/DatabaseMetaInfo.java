@@ -11,7 +11,7 @@ public class DatabaseMetaInfo {
     
     public static final String username = "postgres";
     
-    public static final String passsword = "pass";
+    public static final String passsword = "rame";
     
     public static void closeConnection(Connection con, PreparedStatement pstmt) {
         try {
